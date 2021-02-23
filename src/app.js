@@ -54,7 +54,7 @@ const port = process.env.PORT || 7200;
 
         app.get("**",(Request,Response)=>
         {
-            Response.render("page-not-found",{ErrorMessage : 'What you mean this page is not found.'});
+            Response.render("page-not-found");
         });
 
 

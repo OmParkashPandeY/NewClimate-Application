@@ -3,7 +3,7 @@
 function GetValue() {
     const Getmaintempfield = document.getElementById('InputFieldValue');
     const FindBlanksDetails = document.getElementById('maintempfield');
-    FindBlanksDetails.innerText = Getmaintempfield.value;
+    FindBlanksDetails.innerText = `Temperature of ${Getmaintempfield.value}`;
 }
 
 // -------------------------------------------------------------
